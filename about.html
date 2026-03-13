@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>About</title>
+</head>
+<body class="bg-[#121620] text-white">
+  <header class="flex justify-between items-center px-10 py-8 max-w-8xl bg-black">
+        <div class="flex items-center gap-2">
+            <div class="text-3xl font-bold flex items-center">
+                <span class="text-4xl">☾</span> COSMOS
+            </div>
+        </div>
+        <nav class="hidden md:flex gap-10 text-lg">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="shop.html">Shop</a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 flex flex-col items-center">
+        
+        <div class="relative w-full max-w-lg aspect-[3/4] rounded-[3rem] overflow-hidden shadow-2xl shadow-blue-900/20 mb-16">
+            <img src="./img/earth_mars_distance_small.png" 
+                 alt="Mars" class="absolute inset-0 w-full h-full object-cover">
+        </div>
+
+        <div class="max-w-3xl w-full space-y-12">
+            <section>
+                <h2 class="text-4xl font-bold mb-6 ">Mars:</h2>
+                <p class="text-gray-400 leading-relaxed text-lg">
+                    Mars Quyosh tizimidagi to'rtinchi sayyora. U "Qizil sayyora" deb ataladi, 
+                    chunki uning yuzasi temir oksidi sababli qizg'ish rangda ko'rinadi. 
+                    Marsda vulqonlar, katta vodiylar va muz qoplamalari bor. 
+                    Bu sayyoraning ikkita tabiiy yo'ldoshi mavjud.
+                </p>
+            </section>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass-card p-8 rounded-3xl border rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400">Phobos:</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Phobos Marsning eng katta va Marsga eng yaqin yo'ldoshidir. 
+                        U Mars atrofida juda tez aylanadi — taxminan 7 soat 39 daqiqada bir marta.
+                    </p>
+                </div>
+
+                <div class="glass-card p-8 rounded-3xl border rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400">Deimos:</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Deimos Marsning ikkinchi va kichikroq yo'ldoshidir. 
+                        U Phobosga qaraganda Marsdan uzoqroq masofada joylashgan va ancha silliqroq ko'rinadi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-black py-12 px-10">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-3xl font-bold flex items-center">
+                <span class="text-4xl">☾</span> COSMOS
+            </div>
+            
+            <nav class="flex gap-10 text-lg">
+                <a href="index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./shop.html">Shop</a>
+            </nav>
+
+            <div class="flex gap-6">
+                <a href="./index.html">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                </a>
+                <a href="./about.html">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="./shop.html">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.43 13.93c.184.29.43.635.43.635l-1.33 1.953s-.246-.38-.45-.694c-.653-.984-1.685-2.547-1.685-2.547l-.147.214c-.65 1.054-1.573 2.55-1.573 2.55s-.194.276-.363.53l-1.352 1.93s-.167-.314-.308-.553c-.636-.97-1.89-2.887-1.89-2.887l-.16.242s-1.07 1.635-1.07 1.635l-.234.358-1.503-2.195s.31-.444.646-.94c.642-.943 2.126-3.13 2.126-3.13l.183-.266s.834-1.22.834-1.22l.245-.357 1.504 2.194s-.3.443-.637.94c-.642.943-2.125 3.12-2.125 3.12l-.183.267s-.818 1.196-.818 1.196l-.236.345 1.504 2.195s.322-.475.66-.974c.636-.94 2.106-3.116 2.106-3.116l.18-.264s.823-1.206.823-1.206l.244-.357 1.503 2.195s-.31.445-.647.942c-.64.942-2.11 3.11-2.11 3.11l-.18.267s-.832 1.218-.832 1.218l-.24.352z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
